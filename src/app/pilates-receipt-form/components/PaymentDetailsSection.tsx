@@ -46,6 +46,7 @@ const PaymentDetailsSection = ({ formData, onFieldChange }: PaymentDetailsSectio
 
   const periodOptions = [
     { id: '1_month', name: '1 Month' },
+    { id: '3_month', name: '3 Month' },
     { id: '3_months_24_sessions', name: '3 Months - 24 Sessions' },
     { id: '3_months_36_sessions', name: '3 Months - 36 Sessions' },
     { id: '6_months', name: '6 Months' },

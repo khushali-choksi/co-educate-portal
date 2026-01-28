@@ -153,6 +153,7 @@ export default function PilatesReceiptFormInteractive() {
       // Map period name back to ID
       const periodMap: Record<string, string> = {
         '1 Month': '1_month',
+        '3 Month': '3_month',
         '3 Months - 24 Sessions': '3_months_24_sessions',
         '3 Months - 36 Sessions': '3_months_36_sessions',
         '6 Months': '6_months',
@@ -262,6 +263,7 @@ export default function PilatesReceiptFormInteractive() {
   const getPeriodDisplayName = (periodId: string): string => {
     const periodOptions: Record<string, string> = {
       '1_month': '1 Month',
+      '3_month': '3 Month',
       '3_months_24_sessions': '3 Months - 24 Sessions',
       '3_months_36_sessions': '3 Months - 36 Sessions',
       '6_months': '6 Months',
