@@ -215,7 +215,7 @@ const PDFGenerationInteractive = () => {
       case 'draft': return 'Pending';
       case 'modified': return 'Partial';
       case 'cancelled': return 'Cancelled';
-      default: return 'Pending';
+      default: return 'Pending'; 
     }
   };
 
