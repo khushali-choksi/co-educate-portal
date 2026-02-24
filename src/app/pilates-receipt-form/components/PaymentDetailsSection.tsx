@@ -50,7 +50,8 @@ const PaymentDetailsSection = ({ formData, onFieldChange }: PaymentDetailsSectio
     { id: '3_months_24_sessions', name: '3 Months - 24 Sessions' },
     { id: '3_months_36_sessions', name: '3 Months - 36 Sessions' },
     { id: '6_months', name: '6 Months' },
-    { id: '12_months', name: '12 Months' }
+    { id: '12_months', name: '12 Months' },
+    { id: 'single_session', name: 'Single Session' }
   ];
 
   const statusOptions = [

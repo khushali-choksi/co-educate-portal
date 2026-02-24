@@ -157,7 +157,8 @@ export default function PilatesReceiptFormInteractive() {
         '3 Months - 24 Sessions': '3_months_24_sessions',
         '3 Months - 36 Sessions': '3_months_36_sessions',
         '6 Months': '6_months',
-        '12 Months': '12_months'
+        '12 Months': '12_months',
+        'Single Session': 'single_session'
       };
       
       return {
@@ -248,6 +249,7 @@ export default function PilatesReceiptFormInteractive() {
     if (p.includes('1 month') || p.includes('1_month')) return 'monthly';
     if (p.includes('3 months') || p.includes('3_months') || p.includes('24 sessions') || p.includes('36 sessions')) return 'quarterly';
     if (p.includes('6 months') || p.includes('6_months') || p.includes('12 months') || p.includes('12_months')) return 'annual';
+    if (p.includes('Single Session') || p.includes('single_session') || p.includes('Single Session') || p.includes('single_session')) return 'annual';
     return null;
   };
 
@@ -267,7 +269,8 @@ export default function PilatesReceiptFormInteractive() {
       '3_months_24_sessions': '3 Months - 24 Sessions',
       '3_months_36_sessions': '3 Months - 36 Sessions',
       '6_months': '6 Months',
-      '12_months': '12 Months'
+      '12_months': '12 Months',
+      'single_session': 'Single Session'
     };
     return periodOptions[periodId] || periodId;
   };
